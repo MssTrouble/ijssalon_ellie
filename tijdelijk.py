@@ -6,10 +6,7 @@ def print_aanbieding():
         "vanille" : 4,
         "chocolade" : 5
     }
-    """
-    Comment RB: In de opdracht wordt de waarde vanille aangegeven, maar die geeft qua prijs niet het gezochte bedrag in de opdracht.
-    Daarom heb ik gekozen om verder te werken met aardbei-ijs.
-    """
+
     aanbieding = 0.8 * (prijzen["aardbei"])
     reclame_tekst = f"Vandaag in de aanbieding: aardbei-ijs, 1 liter - slechts €{aanbieding}"
     reclame_tekst2 = reclame_tekst[:62]
